@@ -2,7 +2,7 @@ default: build
 
 check-env:
 ifndef AWSM_HOME
-	$(error must set AWSM_HOME to path to your awsm repo)
+	$(error must export AWSM_HOME to path to your awsm repo)
 endif
 
 install-deps: check-env
