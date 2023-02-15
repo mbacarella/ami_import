@@ -14,5 +14,5 @@ export AWSM_HOME=~/code/awsm
 
 make install-deps
 
-dune exec ./ami_import.exe
+dune exec -- ./ami_import.exe
 ```
